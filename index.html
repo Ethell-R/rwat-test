@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Fetch Example</title>
+    <script src="scripts.js" defer></script> 
+</head>
+<body>
+    <h1>JSON Data Fetching</h1>
+
+    <button id="sync-btn">Fetch with Synchronous XMLHttpRequest</button>
+    <button id="async-callback-btn">Fetch with Asynchronous XMLHttpRequest (Callbacks)</button>
+    <button id="fetch-promise-btn">Fetch with Fetch and Promises</button>
+
+    <h2>Fetched Data</h2>
+    <table id="data-table" border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        console.log("HTML loaded"); // Just for debugging purposes
+    </script>
+</body>
+</html>
